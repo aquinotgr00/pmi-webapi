@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ed36e0bdbe1a20189436ed8c6e93975",
+    "content-hash": "14a2f97c7af71c004f46e4491f0e49f4",
     "packages": [
+        {
+            "name": "bajaklautmalaka/pmi-admin",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://lonewolfffffff@bitbucket.org/bajak_laut_malaka/pmi-admin.git",
+                "reference": "472c03457e24b66f5dd10b0437458ceb844fa07d"
+            },
+            "require": {
+                "illuminate/support": "~5.7.0|~5.8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.8"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BajakLautMalaka\\PmiAdmin\\PmiAdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BajakLautMalaka\\PmiAdmin\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "BajakLautMalaka\\PmiAdmin\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "bajaklautmalaka@gmail.com",
+                    "email": "bajaklautmalaka@gmail.com"
+                }
+            ],
+            "description": "A description for pmi-admin.",
+            "keywords": [
+                "laravel"
+            ],
+            "time": "2019-07-08T11:24:39+00:00"
+        },
         {
             "name": "defuse/php-encryption",
             "version": "v2.2.1",
@@ -5556,7 +5605,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "bajaklautmalaka/pmi-admin": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
