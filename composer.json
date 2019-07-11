@@ -10,7 +10,7 @@
 	"repositories": [
       {
         "type": "vcs",
-        "url" : "https://lonewolfffffff@bitbucket.org/bajak_laut_malaka/pmi-admin.git"
+        "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-admin.git"
       },
 	  {
         "type": "vcs",
