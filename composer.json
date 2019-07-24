@@ -22,6 +22,7 @@
         "bajaklautmalaka/pmi-admin": "dev-develop",
         "bajaklautmalaka/pmi-donatur": "dev-develop",
         "barryvdh/laravel-cors": "^0.11.3",
+        "berkayk/onesignal-laravel": "^1.0",
         "elibyy/tcpdf-laravel": "^5.8",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.3",
