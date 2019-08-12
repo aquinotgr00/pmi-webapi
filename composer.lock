@@ -163,10 +163,10 @@
         },
         {
             "name": "bajaklautmalaka/pmi-relawan",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git",
+                "url": "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git", 
                 "reference": "75e594821a49a8dd3f7997f1569745d243a11b77"
             },
             "require": {
