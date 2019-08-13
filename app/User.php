@@ -8,10 +8,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 use Laravel\Passport\HasApiTokens;
 use BajakLautMalaka\PmiDonatur\Traits\DonatorUserTrait;
+use BajakLautMalaka\PmiRelawan\Traits\VolunteerUserTrait;
 
 class User extends Authenticatable
 {
-    use Notifiable, HasApiTokens, DonatorUserTrait;
+    use Notifiable, HasApiTokens, DonatorUserTrait, VolunteerUserTrait;
 
     /**
      * The attributes that are mass assignable.
