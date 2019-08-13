@@ -166,11 +166,11 @@
         },
         {
             "name": "bajaklautmalaka/pmi-relawan",
-            "version": "dev-feature/list_campaign",
-            "dist": {
-                "type": "path",
-                "url": "../pmi-relawan",
-                "reference": "f44f537c2968dc29bf4e2ef257dfa59d945508a4"
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git", 
+                "reference": "75e594821a49a8dd3f7997f1569745d243a11b77"
             },
             "require": {
                 "illuminate/support": "~5.7.0|~5.8.0"
