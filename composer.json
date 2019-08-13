@@ -16,7 +16,7 @@
         "type": "vcs",
         "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-donatur.git"
       },
-       {
+      {
         "type": "vcs",
         "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git"
       }
@@ -35,7 +35,8 @@
         "laravel/framework": "5.8.*",
         "laravel/passport": "^7.3",
         "laravel/tinker": "^1.0",
-        "maatwebsite/excel": "^3.1"
+        "maatwebsite/excel": "^3.1",
+        "pusher/pusher-php-server": "~4.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
