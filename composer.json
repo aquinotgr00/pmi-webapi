@@ -15,6 +15,10 @@
 	  {
         "type": "vcs",
         "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-donatur.git"
+      },
+      {
+        "type": "vcs",
+        "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git"
       }
     ],
     "require": {
