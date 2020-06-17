@@ -9,23 +9,23 @@
     "license": "MIT",
 	"repositories": [
       {
-        "type": "vcs",
-        "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-admin.git"
+        "type": "path",
+        "url" : "../pmi-admin"
       },
 	  {
-        "type": "vcs",
-        "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-donatur.git"
+        "type": "path",
+        "url" : "../pmi-donatur"
       },
       {
-        "type": "vcs",
-        "url" : "git@bitbucket.org:bajak_laut_malaka/pmi-relawan.git"
+        "type": "path",
+        "url" : "../pmi-relawan"
       }
     ],
     "require": {
         "php": "^7.1.3",
-        "bajaklautmalaka/pmi-admin": "dev-develop",
-        "bajaklautmalaka/pmi-donatur": "dev-develop",
-        "bajaklautmalaka/pmi-relawan": "dev-develop",
+        "bajaklautmalaka/pmi-admin": "dev-feature/email-validation",
+        "bajaklautmalaka/pmi-donatur": "dev-hotfix/donatur_navigation",
+        "bajaklautmalaka/pmi-relawan": "dev-fix/volunteer_profil",
         "barryvdh/laravel-cors": "^0.11.3",
         "berkayk/onesignal-laravel": "^1.0",
         "elibyy/tcpdf-laravel": "^5.8",
