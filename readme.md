@@ -37,6 +37,15 @@ migrate all database tables necessary for this package
 php artisan migrate
 ```
 
+### PMI Voluntaries
+```bash
+composer require bajaklautmalaka/pmi-relawan
+```
+migrate all database tables necessary for this package
+```sh
+php artisan migrate
+```
+
 ## Usage
 ### Admin Authentication
 #### Login
@@ -65,6 +74,11 @@ then the valid response you're getting should be :
 ```
 
 #### Logout
+make a `GET` request to `/api/admin/logout` with `request headers` as follows:
+```sh
+Accept:application/json
+Authorization:Bearer <<auth token>>
+```
 
 ### Response macros
 #### [JSend](https://github.com/omniti-labs/jsend)
